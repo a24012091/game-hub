@@ -1,10 +1,11 @@
 /* Définitions Variables Couleurs */
 :root {
-    --background-color: black;
-    --footer-color: #333;
+    --background-color: #F0F0F0;
+    --header-color: #556C96;
+    --footer-color: #556C96;
     --text-color: white;
 }
-  
+
 /* Global */
 
 body {
@@ -16,7 +17,7 @@ body {
 /* NavBar */
 
 #navbar {
-    background: rgb(0, 0, 0);
+    background: var(--header-color);
     display: flex;
     justify-content: space-evenly;
     letter-spacing: 1px;
@@ -107,7 +108,7 @@ footer {
 }
 
 .foot-part {
-    display: inline-block;
+    display: inline-²ock;
     margin: 0 10px;
     color: var(--text-color);
     text-decoration: none;
