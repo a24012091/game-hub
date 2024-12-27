@@ -1,21 +1,31 @@
+/* Définitions Variables Couleurs */
+:root {
+    --background-color: black;
+    --footer-color: #333;
+    --text-color: white;
+}
+  
+/* Global */
+
 body {
     margin: 0;
+    background-color: var(--background-color);
+    font-family: "JetBrains Mono", serif;
 }
 
-/* NAVBAR */
+/* NavBar */
 
 #navbar {
     background: rgb(0, 0, 0);
     display: flex;
     justify-content: space-evenly;
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
     letter-spacing: 1px;
 }
 
 #nav-title {
     justify-content: flex-start;
     padding: 1.5vh;
-    color: white;
+    color: var(--text-color);
 }
 
 .nav-grp-btn {
@@ -29,14 +39,14 @@ body {
     padding: 5vh 5vw;
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 
 .nav-btn:hover {
     padding: 5vh 5vw;
     font-size: 20px;
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     text-decoration: underline;
     transition-duration: 0.7s;
 }
@@ -52,7 +62,7 @@ body {
 
 /* Section Slide 1 */
 
-.slide1{
+.slide1 {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -61,9 +71,48 @@ body {
     height: 175px;
 }
 
-.game{
+.game {
     width: 493px;
     height: 275px;
-    background: #000000;
+    background: white;
     border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--footer-color);
+    color: var(--text-color);
+    padding: 20px;
+
+}
+
+.foot-elem {
+    text-align: center;
+}
+
+.foot-icons i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.foot-part {
+    display: inline-block;
+    margin: 0 10px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.foot-part:hover {
+    text-decoration: underline;
+}
+
+#foot-copyright {
+    font-size: 0.9rem;
 }
