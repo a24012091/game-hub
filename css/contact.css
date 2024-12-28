@@ -1,0 +1,14 @@
+/* Formulaire Contact */
+
+#form-contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 20vh;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
