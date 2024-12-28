@@ -1,0 +1,123 @@
+/* Définitions Variables Couleurs */
+:root {
+    --background-color: #F0F0F0;
+    --header-color: #556C96;
+    --footer-color: #556C96;
+    --text-color: white;
+}
+
+/* Global */
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: "JetBrains Mono", serif;
+}
+
+/* NavBar */
+
+#navbar {
+    background: var(--header-color);
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+}
+
+#nav-title {
+    justify-content: flex-start;
+    padding: 1.5vh;
+    color: var(--text-color);
+}
+
+.nav-grp-btn {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    list-style-type: none;
+}
+
+.nav-btn {
+    padding: 5vh 5vw;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-btn:hover {
+    padding: 5vh 5vw;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    text-decoration: underline;
+    transition-duration: 0.7s;
+}
+
+.header {
+    /* background-image: url(/img/background.png); */
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid;
+}
+
+/* Section Slide 1 */
+
+.slide1 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 33px;
+    width: 100%;
+    height: 175px;
+}
+
+.game {
+    width: 493px;
+    height: 275px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--footer-color);
+    color: var(--text-color);
+    padding: 20px;
+
+}
+
+.foot-elem {
+    text-align: center;
+}
+
+.foot-title {
+    font-size: 1.3em;
+}
+
+.foot-icons i {
+    margin: 0 10px;
+    font-size: 1.3em;
+}
+
+.foot-part {
+    display: inline-²ock;
+    margin: 0 10px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.foot-part:hover {
+    text-decoration: underline;
+}
+
+#foot-copyright {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,34 @@
+/* Formulaire Contact */
+
+#form-contact {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: static;
+    margin-top: 10vh;
+    margin-left: 50%;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#form-name {
+    /* display: flex; */
+
+    /* width: auto; */
+}
+
+.name-text {
+
+}
+
+#form-name-bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.name-input {
+    width: 48%;
+}
