@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="css/contact.css">
         <link rel="icon" type="image/vnd.icon" href="img/logo.png">
         <script src="https://kit.fontawesome.com/242e672808.js" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <title>Game Hub - Contact</title>
         <!-- Polices -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +27,7 @@
             </nav>
         </header>
         
-        <form id="form-contact">
+        <form onsubmit="sendEmail(); reset(); return false;" id="form-contact">
             <div id="name-text-bloc">
                 <label for="nom">Nom</label>
                 <label for="prenom" class="name-text">Prénom</label>
@@ -47,7 +48,7 @@
                 <label for="message">Message</label>
                 <textarea id="message" class="input" placeholder="Votre message ici..." required="required"></textarea>
             </div>
-            <button id="envoyer-form" type="submit" onclick="sendEmail()">Envoyer</button>
+            <button id="envoyer-form" type="submit">Envoyer</button>
         </form>
 
         <footer>
@@ -71,5 +72,24 @@
                 <a id="foot-copyright">Copyright ©️ 2024 by LPB</a>
             </div>
         </footer>
+
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.gmail.com",
+                    Username : "loan.allard@gmail.com",
+                    Password : "motdepasse",
+                    To : 'loan.allard@gmail.com',
+                    From : document.getElementById("email").value,
+                    Subject : "Nouveau mail",
+                    Body : "Nom: " + document.getElementById("nom").value
+                        + "<br> Email: " + document.getElementById("email").value
+                        + '<br> Contenu du message: ' + document.getElementById("message").value
+                }).then(
+                message => alert("Message envoyé avec succès !")
+                );
+            }
+        </script>
+
     </body>
 </html>
