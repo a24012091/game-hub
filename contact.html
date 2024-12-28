@@ -27,19 +27,27 @@
         </header>
         
         <form id="form-contact">
-            <a class="name-text">Nom</a>
-            <a class="name-text">Prénom</a>
-            <div id="form-name-bloc">
-                <input class="name-input" type="text" placeholder="Dupond" required="required">
-                <input class="name-input" type="text" placeholder="Thierry" required="required">
+            <div id="name-text-bloc">
+                <label for="nom">Nom</label>
+                <label for="prenom" class="name-text">Prénom</label>
             </div>
-            <a required="required">Pseudo</a>
-            <input type="text" placeholder="ThierryDu13" required="required">
-            <a>Email</a>
-            <input type="email" placeholder="example@gmail.com" required="required">
-            <a>Message</a>
-            <textarea name="Message" placeholder="Votre message ici..." required="required"></textarea>
-            <input type="submit" value="Envoyer">
+            <div id="form-name-bloc">
+                <input id="nom" class="input" type="text" placeholder="Dupond" required="required">
+                <input id="prenom" class="input" type="text" placeholder="Thierry" required="required">
+            </div>
+            <div id="form-pseudo-bloc">
+                <label for="pseudo">Pseudo</label>
+                <input id="pseudo" class="input" type="text" placeholder="ThierryDu13" required="required">
+            </div>
+            <div id="form-email-bloc">
+                <label for="email">Email</label>
+                <input id="email" class="input" type="email" placeholder="example@gmail.com" required="required">
+            </div>
+            <div id="form-message-bloc">
+                <label for="message">Message</label>
+                <textarea id="message" class="input" placeholder="Votre message ici..." required="required"></textarea>
+            </div>
+            <button id="envoyer-form" type="submit" onclick="sendEmail()">Envoyer</button>
         </form>
 
         <footer>
@@ -63,6 +71,5 @@
                 <a id="foot-copyright">Copyright ©️ 2024 by LPB</a>
             </div>
         </footer>
-        
     </body>
 </html>
