@@ -1,26 +1,49 @@
+/* Titre Page */
+
+#page-title {
+    color: var(--page-color);
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2vh;
+    width: auto;
+    font-size: 2rem;
+    transform: none;
+}
+
 /* Formulaire Contact */
 
 #form-contact {
-    color: var(--text-color);
+    color: var(--page-color);
     display: flex;
     flex-direction: column;
     height: auto;
-    position: static;
-    margin-top: 10vh;
-    margin-left: 50%;
+    width: 30vw;
+    position: relative;
+    margin-top: 5vh;
+    margin-left: auto;
     margin-right: auto;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    transform: none;
+    background-color: var(--contact-back-color);
+    border: solid;
+    border-width: 1px;
+    border-color: var(--border-color);
+    padding: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 
-#form-name {
-    /* display: flex; */
-
-    /* width: auto; */
+#name-text-bloc {
+    display: flex;
+    flex-direction: row;
 }
 
 .name-text {
+    margin-left: 20px;
+}
 
+#form-name-bloc, #form-pseudo-bloc, #form-email-bloc, #form-message-bloc {
+    margin-bottom: 15px;
 }
 
 #form-name-bloc {
@@ -29,6 +52,68 @@
     justify-content:space-between;
 }
 
-.name-input {
-    width: 48%;
+.input {
+    width: 100%;
+    border-radius: 15px;
+    padding: 13px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#envoyer-form {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--btn-color);
+    border-radius: 15px;
+    color: var(--btn-text-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+#envoyer-form:hover {
+    background-color: var(--btn-color-hover);
+}
+
+/* Newsletter */
+
+#news-box {
+    color: var(--page-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+    margin-bottom: 120px;}
+
+#news-text {
+    padding-bottom: 20px;
+}
+
+
+#news-form {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+}
+
+#input-news {
+    width: 80%;
+    border-radius: 15px; 
+}
+
+#envoyer-form-news {
+    width: 20%;
+    padding: 10px;
+    background-color: var(--btn-color);
+    border-radius: 15px;
+    color: var(--btn-text-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#envoyer-form-news:hover {
+    background-color: var(--btn-color-hover);
 }

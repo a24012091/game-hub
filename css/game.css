@@ -1,0 +1,168 @@
+/* Global */
+
+ul {
+    list-style: none;
+}
+
+/* Box 1 - Global */
+
+#global-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    transform: none;
+    width: 80%;
+    color: var(--page-color);
+}
+
+#game-desc {
+    width: 48%;
+}
+
+#game-illust {
+    width: 48%;
+    border-radius: 10px;
+}
+
+#game-title {
+    font-size: 1.6rem;
+}
+
+#box-claim {
+    display: flex;
+    flex-direction: col;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--page-color);
+}
+
+#pegi-text {
+    text-align: center;
+    width: 48%;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#claim-btn {
+    border-radius: 5px;
+    background-color: var(--btn-color);
+    width: 48%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--page-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#claim-btn:hover {
+    background-color: var(--btn-color-hover);
+}
+
+#box-game-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-game-desc {
+    padding: 1vh;
+    font-size: 1.3rem;
+}
+
+#game-desc-ul-2 {
+    text-align: end;
+}
+
+
+/* Box 2 - Infos */
+
+#infos-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+#part-sup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+    width: 80%;
+    color: var(--page-color);
+}
+
+#vid-box {
+    min-height: 40vh;
+    width: 63%;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
+
+#video {
+    width: 100%;
+    height: 100%;
+}
+
+#desc {
+    width: 34%;
+    font-size: 1.8vh;
+    line-height: 3.5vh;
+    text-align: justify;
+}
+
+#tag-box {
+    height: auto;
+    width: auto;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+#tag-tittle {
+    color: var(--page-color);
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--page-color);
+}
+
+.tags {
+    background-color: var(--contact-back-color);
+    color: var(--page-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0.3%;
+    color: var(--page-color);
+}
+
+/* Images */
+
+#img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8vh;
+    transform: none;
+    width: auto;
+}
+
+.imgs {
+    height: 30vh;
+    padding: 2vh;
+}
