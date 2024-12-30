@@ -3,8 +3,9 @@
     --background-color: #F0F0F0;
     --header-color: #556C96;
     --footer-color: #556C96;
-    --text-color: black;
     --special-text-color: white;
+    --page-color: black;
+    --btn-text-color: black;
     --btn-color: #F5CA23;
     --btn-color-hover: #e6b800;
     --contact-back-color: #C3C3C3;
@@ -37,7 +38,6 @@ html, body {
 #nav-title {
     justify-content: flex-start;
     padding: 1.5vh;
-    color: var(--text-color);
 }
 
 .nav-grp-btn {
@@ -51,7 +51,7 @@ html, body {
     padding: 5vh 5vw;
     font-size: 20px;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--special-text-color);
 }
 
 .nav-btn:hover {
@@ -63,7 +63,7 @@ html, body {
     padding: 5vh 5vw;
     font-size: 30px;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--special-text-color);
     font-weight: bold;
 }
 
@@ -98,7 +98,7 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: var(--footer-color);
-    color: var(--text-color);
+    color: var(--special-text-color);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -119,7 +119,7 @@ footer {
 .foot-part {
     display: inline-block;
     margin: 0 10px;
-    color: var(--text-color);
+    color: var(--special-text-color);
     text-decoration: none;
 }
 

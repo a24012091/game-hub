@@ -1,7 +1,7 @@
 /* Titre Page */
 
 #page-title {
-    color: var(--text-color);
+    color: var(--page-color);
     text-align: center;
     position: relative;
     margin: 0 auto;
@@ -14,7 +14,7 @@
 /* Formulaire Contact */
 
 #form-contact {
-    color: var(--text-color);
+    color: var(--page-color);
     display: flex;
     flex-direction: column;
     height: auto;
@@ -65,7 +65,7 @@
     padding: 10px;
     background-color: var(--btn-color);
     border-radius: 15px;
-    color: var(--special-text-color);
+    color: var(--btn-text-color);
     font-weight: bold;
     cursor: pointer;
 }
@@ -77,7 +77,7 @@
 /* Newsletter */
 
 #news-box {
-    color: var(--text-color);
+    color: var(--page-color);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -109,7 +109,7 @@
     padding: 10px;
     background-color: var(--btn-color);
     border-radius: 15px;
-    color: var(--special-text-color);
+    color: var(--btn-text-color);
     font-weight: bold;
     cursor: pointer;
 }

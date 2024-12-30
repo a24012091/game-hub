@@ -1,0 +1,40 @@
+/* Box 1 - Global */
+
+
+
+/* Box 2 - Infos */
+
+#part-sup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+    width: 70%;
+    color: var(--page-color);
+}
+
+#video-wrc {
+    width: 47%;
+}
+
+#desc-wrc {
+    width: 47%;
+}
+
+/* Images */
+
+#img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+    width: 90%;
+}
+
+.imgs {
+    height: 22vh;
+}
