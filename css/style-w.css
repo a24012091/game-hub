@@ -3,7 +3,12 @@
     --background-color: #F0F0F0;
     --header-color: #556C96;
     --footer-color: #556C96;
-    --text-color: white;
+    --text-color: black;
+    --special-text-color: white;
+    --btn-color: #F5CA23;
+    --btn-color-hover: #e6b800;
+    --contact-back-color: #C3C3C3;
+    --border-color: black;
 }
 
 /* Global */
@@ -11,7 +16,13 @@
 body {
     margin: 0;
     background-color: var(--background-color);
-    font-family: "JetBrains Mono", serif;
+    font-family: "JetBrains Mono", "Courier New", serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 /* NavBar */
@@ -44,12 +55,16 @@ body {
 }
 
 .nav-btn:hover {
-    padding: 5vh 5vw;
-    font-size: 20px;
-    text-decoration: none;
-    color: var(--text-color);
     text-decoration: underline;
     transition-duration: 0.7s;
+}
+
+.nav-title {
+    padding: 5vh 5vw;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
 }
 
 .header {
@@ -61,37 +76,31 @@ body {
     border-bottom: 5px solid;
 }
 
-/* Section Slide 1 */
+/* Bouton Thème */
 
-.slide1 {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 33px;
-    width: 100%;
-    height: 175px;
+.fa-sun {
+    color: white;
+    /* position: static; */
 }
 
-.game {
-    width: 493px;
-    height: 275px;
-    background: white;
-    border-radius: 10px;
+#icon-theme {
 }
 
 /* Footer */
 
 footer {
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: 0; left: 0; right: 0;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--footer-color);
     color: var(--text-color);
-    padding: 20px;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .foot-elem {
@@ -108,7 +117,7 @@ footer {
 }
 
 .foot-part {
-    display: inline-²ock;
+    display: inline-block;
     margin: 0 10px;
     color: var(--text-color);
     text-decoration: none;

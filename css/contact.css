@@ -1,23 +1,36 @@
+/* Titre Page */
+
+#page-title {
+    color: var(--text-color);
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: auto;
+    font-size: 2rem;
+    transform: none;
+}
+
 /* Formulaire Contact */
 
 #form-contact {
     color: var(--text-color);
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: auto;
     width: 30vw;
     position: relative;
-    margin-top: 30vh;
-    margin-left: 50%;
+    margin-top: 5vh;
+    margin-left: auto;
     margin-right: auto;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    transform: none;
     background-color: var(--contact-back-color);
     border: solid;
     border-width: 1px;
-    border-color: white;
+    border-color: var(--border-color);
     padding: 15px;
     border-radius: 15px;
+    box-sizing: border-box;
 }
 
 #name-text-bloc {
@@ -44,6 +57,7 @@
     border-radius: 15px;
     padding: 13px;
     margin-top: 5px;
+    box-sizing: border-box;
 }
 
 #envoyer-form {
@@ -57,11 +71,49 @@
 }
   
 #envoyer-form:hover {
-    background-color: #e6b800;
+    background-color: var(--btn-color-hover);
+}
+
+/* Newsletter */
+
+#news-box {
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    transform: none;
+    margin-bottom: 120px;}
+
+#news-text {
+    padding-bottom: 20px;
 }
 
 
-.test {
-    color: white;
-    margin-top: 200px;
+#news-form {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+}
+
+#input-news {
+    width: 80%;
+    border-radius: 15px; 
+}
+
+#envoyer-form-news {
+    width: 20%;
+    padding: 10px;
+    background-color: var(--btn-color);
+    border-radius: 15px;
+    color: var(--special-text-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#envoyer-form-news:hover {
+    background-color: var(--btn-color-hover);
 }

@@ -6,7 +6,9 @@
     --text-color: white;
     --special-text-color: #000000;
     --btn-color: #F5CA23;
+    --btn-color-hover: #e6b800;
     --contact-back-color: #2A2A2A;
+    --border-color: white;
 }
   
 /* Global */
@@ -22,7 +24,6 @@ html, body {
     padding: 0;
     height: 100%;
 }
-
 
 /* NavBar */
 
@@ -58,6 +59,14 @@ html, body {
     transition-duration: 0.7s;
 }
 
+.nav-title {
+    padding: 5vh 5vw;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
 .header {
     /* background-image: url(/img/background.png); */
     width: 100%;
@@ -67,10 +76,20 @@ html, body {
     border-bottom: 5px solid;
 }
 
+/* Bouton Thème */
+
+.fa-sun {
+    color: white;
+    /* position: static; */
+}
+
+#icon-theme {
+}
+
 /* Footer */
 
 footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0; 
     left: 0; 
