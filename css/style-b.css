@@ -5,7 +5,7 @@
     --footer-color: #333;
     --special-text-color: white;
     --page-color: white;
-    --btn-text-color: white;
+    --btn-text-color: black;
     --btn-color: #F5CA23;
     --btn-color-hover: #e6b800;
     --contact-back-color: #2A2A2A;
@@ -78,9 +78,17 @@ html, body {
 
 /* Bouton Thème */
 
-.fa-sun {
-    color: white;
-    /* position: static; */
+#icon-theme {
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#btn-icon-theme {
+    text-decoration: none;
+    color: var(--page-color);
 }
 
 /* Footer */

@@ -78,9 +78,17 @@ html, body {
 
 /* Bouton Thème */
 
-.fa-sun {
-    color: white;
-    /* position: static; */
+#icon-theme {
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#btn-icon-theme {
+    text-decoration: none;
+    color: var(--page-color);
 }
 
 /* Footer */
