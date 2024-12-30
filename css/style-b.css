@@ -116,6 +116,11 @@ footer {
     font-size: 1.3em;
 }
 
+.lien-icons {
+    color: var(--special-text-color);
+    text-decoration: none;
+}
+
 .foot-part {
     display: inline-block;
     margin: 0 10px;
