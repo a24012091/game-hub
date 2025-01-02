@@ -26,9 +26,13 @@
                     </ul>
             </nav>
         </header>
+
+        <div class="btn">
+            <i id="icone" class="fa-solid fa-arrow-up"></i>
+        </div>
         
         <div id="icon-theme" >
-            <a id="btn-icon-theme" href="contact-w.html"><i class="fa-solid fa-moon"></i></a>
+            <a id="btn-icon-theme" onclick="switchTheme()"><i class="fa-solid fa-moon"></i></a>
         </div>
 
         <div id="contact-container">
@@ -89,23 +93,6 @@
             </div>
         </footer>
 
-        <script>
-            function sendEmail(){
-                Email.send({
-                    Host : "smtp.gmail.com",
-                    Username : "loan.allard@gmail.com",
-                    Password : "motdepasse",
-                    To : 'loan.allard@gmail.com',
-                    From : document.getElementById("email").value,
-                    Subject : "Nouveau mail",
-                    Body : "Nom: " + document.getElementById("nom").value
-                        + "<br> Email: " + document.getElementById("email").value
-                        + '<br> Contenu du message: ' + document.getElementById("message").value
-                }).then(
-                message => alert("Message envoyé avec succès !")
-                );
-            }
-        </script>
-
+        <script type="text/javascript" src="/js/app.js"></script>
     </body>
 </html>
