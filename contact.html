@@ -37,7 +37,7 @@
 
         <div id="contact-container">
             <h1 id="page-title">Contact</h1>
-            <form onsubmit="sendEmail(); reset(); return false;" id="form-contact">
+            <form action="mailto:loan.allard@gmail.com" method="GET" id="form-contact">
                 <div id="name-text-bloc">
                     <label for="nom">Nom</label>
                     <label for="prenom" class="name-text">Prénom</label>
@@ -58,10 +58,11 @@
                     <label for="message">Message</label>
                     <textarea id="message" class="input" placeholder="Votre message ici..." required="required"></textarea>
                 </div>
-                <button id="envoyer-form" type="submit">Envoyer</button>
+                <!-- <button id="envoyer-form" type="submit">Envoyer</button> -->
+                <input id="envoyer-form" type="submit" value="Envoyer">
             </form>
         </div>
-
+        
         <div id="news-box">
             <h1 id="news-title">NEWSLETTER</h1>
             <a id="news-text">Reçoit les dernières actualités de jeux vidéos !</a>

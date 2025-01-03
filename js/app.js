@@ -51,18 +51,33 @@ function switchTheme() {
 
 // Envoi Email SMTP
 
-function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "loan.allard@gmail.com",
-        Password : "motdepasse",
-        To : 'loan.allard@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "Nouveau mail",
-        Body : "Nom: " + document.getElementById("nom").value
-            + "<br> Email: " + document.getElementById("email").value
-            + '<br> Contenu du message: ' + document.getElementById("message").value
-    }).then(
-    message => alert("Message envoyé avec succès !")
-    );
+// function sendEmail(){
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "loan.allard@gmail.com",
+//         Password : "motdepasse",
+//         To : 'loan.allard@gmail.com',
+//         From : document.getElementById("email").value,
+//         Subject : "Nouveau mail",
+//         Body : "Nom: " + document.getElementById("nom").value
+//             + "<br> Email: " + document.getElementById("email").value
+//             + '<br> Contenu du message: ' + document.getElementById("message").value
+//     }).then(
+//     message => alert("Message envoyé avec succès !")
+//     );
+// }
+
+function envoyerEmail() {
+    const nom = document.getElementById("nom").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("avis").value;
+
+    if (nom && email && message) {
+        const sujet = `Avis de ${nom}`;
+        const corps = `Bonjour,\n\nVoici un avis soumis depuis votre site web :\n\nNom : ${nom}\nEmail : ${email}\nAvis :\n${avis}\n\nCordialement,`;
+        const mailto = `mailto:loan.allard@gmail.com?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(corps)}`;
+        window.location.href = mailto;
+    } else {
+        alert("Veuillez remplir tous les champs !");
+    }
 }
