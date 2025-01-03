@@ -12,7 +12,7 @@
         <!-- Polices -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -37,29 +37,37 @@
         </div>
 
         <div id="global-box">
-            <img id="game-illust" src="/img/VALORANT/VALORANT-illustration.jpg">
+            <div class="game-illust"></div>
+            
             <div id="game-desc">
                 <h1 id="game-title">Valorant</h1>
                 <div id="box-claim">
-                    <a id="pegi-text">PEGI 16</a>
-                    <a id="claim-btn" href="https://store.epicgames.com/fr/p/valorant" target="_blank">Obtenir</a>
+                    <div class="pegi">
+                        <img src="/img/PEGI/age-16.jpg">
+                        <span id="pegi-text">PEGI 16</span>
+                    </div>
+                    <a id="claim-btn" href="https://store.epicgames.com/fr/p/valorant" target="_blank">
+                        <span>Obtenir</span>
+                    </a>
                 </div>
-                <div id="box-game-desc">
-                    <ul>
-                        <li class="list-game-desc"><a>Développeur</a></li>
-                        <li class="list-game-desc"><a>Editeur</a></li>
-                        <li class="list-game-desc"><a>Date de sortie</a></li>
-                        <li class="list-game-desc"><a>Sortie sortie</a></li>
-                        <li class="list-game-desc"><a>Plateforme</a></li>
+
+                <div class="box-game-desc">
+                    <ul class="left">
+                        <li>Développeur</li>
+                        <li>Editeur</li>
+                        <li>Date de sortie</li>
+                        <li>Sortie sortie</li>
+                        <li>Plateforme</li>
                     </ul>
-                    <ul id="game-desc-ul-2">
-                        <li class="list-game-desc"><a>Riot Games</a></li>
-                        <li class="list-game-desc"><a>Riot Games</a></li>
-                        <li class="list-game-desc"><a>04/11/2021</a></li>
-                        <li class="list-game-desc"><a>02/06/2020</a></li>
-                        <li class="list-game-desc"><a>Windows, Playstation, Xbox</a></li>
+                    <ul class="right">
+                        <li>Riot Games</li>
+                        <li>Riot Games</li>
+                        <li>04/11/2021</li>
+                        <li>02/06/2020</li>
+                        <li><img src="/img/windowsLogo.png" alt="windows logo"></li>
                     </ul>
                 </div>
+
             </div>
         </div>
 
@@ -70,13 +78,17 @@
                 </div>
                 <p id="desc">VALORANT est un jeu de tir tactique en 5c5 porté par des personnages et dont la scène est mondiale. Brillez avec un esprit et des réflexes plus vifs que votre adversaire grâce à des compétences de combat, la précision de vos tirs et un esprit d'équipe réactif.</p>
             </div>
-            <div id="tag-box">
-                <a id="tag-tittle">Tags:</a>
-                <a class="tags">Action</a>
-                <a class="tags">Multijoueur</a>
-                <a class="tags">Jeux de tir</a>
-                <a class="tags">Compétitif</a>
+
+            <div class="tag-box">
+                <ul>
+                    <span id="tag-title">Tags: </span>
+                    <li>Action</li>
+                    <li>Multijoueur</li>
+                    <li>Jeux de tir</li>
+                    <li>Compétitif</li>
+                </ul>
             </div>
+
         </div>
 
         <div id="img-box">
