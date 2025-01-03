@@ -113,6 +113,10 @@ html, body {
     color: var(--page-color);
 }
 
+#btn-icon-theme:hover {
+    cursor: pointer;
+}
+
 /* Footer */
 
 footer {
