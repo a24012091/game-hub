@@ -29,13 +29,18 @@ ul {
     width: 48%;
 }
 
-#game-illust {
-    width: 48%;
+.game-illust {
+    width: 50%;
+    height: 432px;
+    background-image: url("/img/VALORANT/VALORANT-illustration.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 
 #game-title {
-    font-size: 1.6rem;
+    margin: 20px;
+    font-size: 2.5rem;
 }
 
 #box-claim {
@@ -47,43 +52,64 @@ ul {
     color: var(--page-color);
 }
 
-#pegi-text {
-    text-align: center;
+.pegi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 48%;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid var(--border-color);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+#pegi-text {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.pegi img {
+    width: 50px;
+    height: auto;
+}
+
 #claim-btn {
-    border-radius: 5px;
-    background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     width: 48%;
-    text-align: center;
     text-decoration: none;
-    color: var(--page-color);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: var(--btn-text-color);
+    background-color: var(--btn-color);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #claim-btn:hover {
     background-color: var(--btn-color-hover);
 }
 
-#box-game-desc {
+.box-game-desc {
+    padding: 0 8px 0 8px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
-.list-game-desc {
-    padding: 1vh;
-    font-size: 1.3rem;
+.box-game-desc ul {
+    padding: 0;
 }
 
-#game-desc-ul-2 {
+.box-game-desc ul.right {
+    display: block;
     text-align: end;
+}
+
+.box-game-desc ul li {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.4;
 }
 
 
@@ -124,34 +150,38 @@ ul {
 
 #desc {
     width: 34%;
-    font-size: 1.8vh;
-    line-height: 3.5vh;
+
+    font-size: 25px;
+    line-height: 2;
     text-align: justify;
 }
 
-#tag-box {
-    height: auto;
-    width: auto;
-    padding-top: 2vh;
-    display: flex;
-    justify-content: center;
+.tag-box {
+    margin-top: 20px;
 }
 
-#tag-tittle {
+#tag-title {
     color: var(--page-color);
     padding: 5px;
     border-radius: 5px;
-    color: var(--page-color);
 }
 
-.tags {
+.tag-box ul {
+    color: var(--page-color);
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+.tag-box ul li {
+    padding: 10px;
     background-color: var(--contact-back-color);
     color: var(--page-color);
-    padding: 5px;
     border-radius: 5px;
     margin: 0.3%;
-    color: var(--page-color);
 }
+
 
 /* Images */
 
