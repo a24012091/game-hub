@@ -49,24 +49,6 @@ function switchTheme() {
     applyTheme();
 }
 
-// Envoi Email SMTP
-
-// function sendEmail(){
-//     Email.send({
-//         Host : "smtp.gmail.com",
-//         Username : "loan.allard@gmail.com",
-//         Password : "motdepasse",
-//         To : 'loan.allard@gmail.com',
-//         From : document.getElementById("email").value,
-//         Subject : "Nouveau mail",
-//         Body : "Nom: " + document.getElementById("nom").value
-//             + "<br> Email: " + document.getElementById("email").value
-//             + '<br> Contenu du message: ' + document.getElementById("message").value
-//     }).then(
-//     message => alert("Message envoyé avec succès !")
-//     );
-// }
-
 function envoyerEmail() {
     const nom = document.getElementById("nom").value;
     const email = document.getElementById("email").value;
