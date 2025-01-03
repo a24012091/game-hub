@@ -15,3 +15,15 @@
     background: white;
     border-radius: 10px;
 }
+
+#valorant {
+    background-image: url("/img/VALORANT/VALORANT-illustration.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fortnite {
+    background-image: url("/img/FORTNITE/FORTNITE-illustration.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
