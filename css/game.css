@@ -8,6 +8,7 @@ ul {
 
 #global-box {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -86,6 +87,7 @@ ul {
 
 #infos-box {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -152,6 +154,7 @@ ul {
 
 #img-box {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
