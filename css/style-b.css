@@ -26,6 +26,28 @@ html, body {
     height: 100%;
 }
 
+.btn {
+    height: 80px;
+    width: 80px;
+    background-color: var(--btn-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--btn-color-hover);
+}
+
+#icone {
+    width: 10px;
+}
+
 /* NavBar */
 
 #navbar {
@@ -94,7 +116,6 @@ html, body {
 /* Footer */
 
 footer {
-    position: relative;
     width: 100%;
     bottom: 0; 
     left: 0; 
