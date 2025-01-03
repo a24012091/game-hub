@@ -91,7 +91,6 @@ html, body {
 }
 
 .header {
-    /* background-image: url(/img/background.png); */
     width: 100%;
     background-position: center;
     background-attachment: fixed;
@@ -110,9 +109,9 @@ html, body {
 }
 
 #btn-icon-theme {
-    position: fixed;
+    position: relative;
     text-decoration: none;
-    padding-right: 50px;
+    padding: 50px;
     color: var(--page-color);
 }
 
