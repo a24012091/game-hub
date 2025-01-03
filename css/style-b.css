@@ -110,7 +110,9 @@ html, body {
 }
 
 #btn-icon-theme {
+    position: fixed;
     text-decoration: none;
+    padding-right: 50px;
     color: var(--page-color);
 }
 
