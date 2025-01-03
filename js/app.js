@@ -49,6 +49,8 @@ function switchTheme() {
     applyTheme();
 }
 
+// Envoi email
+
 function envoyerEmail() {
     const nom = document.getElementById("nom").value;
     const email = document.getElementById("email").value;
