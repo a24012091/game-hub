@@ -10,7 +10,7 @@
         <!-- Polices -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -35,27 +35,35 @@
         </div>
 
         <div id="global-box">
-            <img id="game-illust" src="/img/WRC10/WRC-Illustration.jpg">
+            <div class="game-illust">
+                <img src="/img/WRC10/WRC-Illustration.jpg" alt="Image illustration WRC10">
+            </div>
+            
             <div id="game-desc">
                 <h1 id="game-title">WRC 10 FIA World Rally Championship</h1>
                 <div id="box-claim">
-                    <a id="pegi-text">PEGI 3</a>
-                    <a id="claim-btn" href="https://store.steampowered.com/app/1462810/WRC_10_FIA_World_Rally_Championship/?l=french" target="_blank">Obtenir</a>
+                    <div class="pegi">
+                        <img src="/img/PEGI/age-3.jpg">
+                        <span id="pegi-text">PEGI 3</span>
+                    </div>
+                    <a id="claim-btn" href="https://store.steampowered.com/app/1462810/WRC_10_FIA_World_Rally_Championship/?l=french" target="_blank">
+                        <span>Obtenir</span>
+                    </a>
                 </div>
-                <div id="box-game-desc">
-                    <ul>
-                        <li class="list-game-desc"><a>Développeur</a></li>
-                        <li class="list-game-desc"><a>Editeur</a></li>
-                        <li class="list-game-desc"><a>Date de sortie</a></li>
-                        <li class="list-game-desc"><a>Sortie initiale</a></li>
-                        <li class="list-game-desc"><a>Plateforme</a></li>
+                <div class="box-game-desc">
+                    <ul class="left">
+                        <li>Développeur</li>
+                        <li>Editeur</li>
+                        <li>Date de sortie</li>
+                        <li>Sortie initiale</li>
+                        <li>Plateforme</li>
                     </ul>
-                    <ul id="game-desc-ul-2">
-                        <li class="list-game-desc"><a>Nacon</a></li>
-                        <li class="list-game-desc"><a>Nacon</a></li>
-                        <li class="list-game-desc"><a>02/12/21</a></li>
-                        <li class="list-game-desc"><a>31/08/2021</a></li>
-                        <li class="list-game-desc"><a>Windows, Playstation, Xbox</a></li>
+                    <ul class="right">
+                        <li>Nacon</li>
+                        <li>Nacon</li>
+                        <li>02/12/21</li>
+                        <li>31/08/2021</li>
+                        <li><img src="/img/windowsLogo.png" alt="windows logo"></li>
                     </ul>
                 </div>
             </div>
