@@ -11,21 +11,19 @@
     --contact-back-color: #2A2A2A;
     --border-color: white;
     --bg-color-btn-free: #26BBFF;
+    --bg-color-navbar: #0F0F0F;
 }
 
 /* Global */
 
 body {
     margin: 0;
+    padding: 0;
+    height: 40vh;
     background-color: var(--background-color);
     font-family: Roboto;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 40vh;
-}
 
 .btn {
     position: fixed;
@@ -50,55 +48,58 @@ html, body {
     width: 10px;
 }
 
-/* NavBar */
-
-#navbar {
-    background: var(--header-color);
-    display: flex;
-    justify-content: space-evenly;
-    letter-spacing: 1px;
-}
-
-#nav-title {
-    justify-content: flex-start;
-    padding: 1.5vh;
-}
-
-.nav-grp-btn {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    list-style-type: none;
-}
-
-.nav-btn {
-    padding: 5vh 5vw;
-    font-size: 20px;
-    text-decoration: none;
-    color: var(--special-text-color);
-}
-
-.nav-btn:hover {
-    text-decoration: underline;
-    transition-duration: 0.7s;
-}
-
-.nav-title {
-    padding: 5vh 5vw;
-    font-size: 30px;
-    text-decoration: none;
-    color: var(--special-text-color);
-    font-weight: bold;
-}
+/* Header */
 
 .header {
     /* background-image: url(/img/background.png); */
+    position: relative;
     width: 100%;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    border-bottom: 5px solid;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-navbar);
 }
+
+/* NavBar */
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 1px;
+    padding-top: 2%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--special-text-color);
+}
+
+.navbar ul .nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-game-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
 
 /* Bouton Thème */
 

@@ -29,6 +29,7 @@ function applyTheme() {
       root.style.setProperty('--btn-color-hover', '#e6b800');
       root.style.setProperty('--contact-back-color', '#2A2A2A');
       root.style.setProperty('--border-color', 'white');
+      root.style.setProperty('--bg-color-navbar', '#0F0F0F')
     } else {
       // Passage au thème clair
       root.style.setProperty('--background-color', '#F0F0F0');
@@ -41,6 +42,7 @@ function applyTheme() {
       root.style.setProperty('--btn-color-hover', '#e6b800');
       root.style.setProperty('--contact-back-color', '#C3C3C3');
       root.style.setProperty('--border-color', 'black');
+      root.style.setProperty('--bg-color-navbar', '#556C96');
     }
 }
 

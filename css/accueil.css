@@ -106,7 +106,7 @@
     align-items: center;
     width: 1462px;
     height: 612px;
-    background-color: var(--footer-color);
+    background-color: var(--bg-color-navbar);
     margin-left: 12%;
     margin-top: 5%;
     border-radius: 10px;
@@ -164,7 +164,7 @@
     height: 40px;
 }
 
-.free-game-div span {
+#title-game {
     color: var(--page-color);
     text-decoration: none;
     font-size: 18px;
