@@ -1,0 +1,88 @@
+@media screen and (max-width: 450px){
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Slide 1 */
+
+    .slide1 {
+        height: 175px;
+        overflow-x: auto;
+        padding: 20px 5px;
+        display: flex;
+        justify-content: space-between;
+        width: 100;
+    }
+
+    .game {
+        width: 300px;
+        height: 175px;
+        margin: 0 15px;
+    }
+
+    /* Slide 2 */
+
+    .slide2 {
+        overflow-x: auto;
+        padding: 20px 5px;
+    }
+
+    .slide2 h2 {
+        margin-left: 5px;
+    }
+
+    .big-game {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .big-game a .games {
+        width: 312px;
+        height: 433px;
+    }
+
+    /* Section free game */
+
+    .free-game {
+        width: 420px;
+        height: 331px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 15px;
+    }
+    
+    .free-game-div {
+        width: 361px;
+        height: 203px;
+        margin-top: -30%;
+        margin-left: 10px;
+    }
+
+    .title-present {
+        margin-left: 15px;
+    }
+
+    .img-present {
+        width: 37px;
+        height: 36px;
+        background-size: cover;
+    }
+
+    .game-present {
+        width: 361px;
+        height: 203px;
+        background-size: cover;
+        margin-left: 15px;
+    }
+
+    #text-gratuit {
+        width: 359px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #title-game {
+        margin-left: 15px;
+    }
+}
