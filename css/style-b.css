@@ -19,6 +19,7 @@ body {
     margin: 0;
     padding: 0;
     height: 40vh;
+    width: 100%;
     background-color: var(--background-color);
     font-family: Roboto;
 }
