@@ -1,7 +1,7 @@
 /* Définitions Variables Couleurs */
 :root {
     --background-color: black;
-    --header-color: black;
+    --bg-color-navbar: black;
     --footer-color: #333;
     --special-text-color: white;
     --page-color: white;
@@ -11,7 +11,6 @@
     --contact-back-color: #2A2A2A;
     --border-color: white;
     --bg-color-btn-free: #26BBFF;
-    --bg-color-navbar: #0F0F0F;
 }
 
 /* Global */
@@ -167,3 +166,4 @@ footer {
 #foot-copyright {
     font-size: 0.9rem;
 }
+
