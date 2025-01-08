@@ -86,74 +86,43 @@
 
 /* Section Free Game */
 
-
 .free-game {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1462px;
-    height: 612px;
+    width: 60%;
+    height: auto;
     background-color: var(--footer-color);
-    margin-left: 12%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 5%;
     border-radius: 10px;
 }
 
-.free-game a {
-    text-decoration: none;
+#gif-text {
+    color: white;
 }
 
-.free-game-div {
-    width: 670px;
-    height: 376px;
-    border-radius: 10px;
-    margin-top: -5%;
-}
-
-.title-present {
-    display: flex;
-    align-items: center;
-}
-
-.title-present span {
-    margin-top: 5px;
-    margin-left: 10px;
-    color: var(--page-color);
-    font-weight: bold;
-}
-
-.img-present {
-    width: 37px;
-    height: 36px;
-    background-image: url("../img/FreeGame/Cadeau.png");
-}
-
-.game-present {
-    position: relative;
-    width: 670px;
-    height: 376px;
-    background-image: url("../img/FreeGame/Destiny2.jpg");
-    border-radius: 10px;
-    margin: 10px 0;
+.fa-gift {
+    padding: 5px;
 }
 
 #text-gratuit {
-    position: absolute;
     display: flex;
     justify-content: center;
-    align-items: center;
-    top: 89%;
     color: var(--btn-text-color);
     border: 1px var(--bg-color-btn-free) solid;
     background-color: var(--bg-color-btn-free);
     border-radius: 0 0 10px 10px;
-    width: 668px;
-    height: 40px;
+    padding: 7px;
+    margin: 0;
+    font-weight: bold;
 }
 
-.free-game-div span {
-    color: var(--page-color);
-    text-decoration: none;
+#free-game-name {
+    color: white;
     font-size: 18px;
+    padding: 7px;
     font-weight: bold;
 }
