@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="css/accueil.css">
         
         <!-- Media queries -->
-        <link rel="stylesheet" href="css/media-queries/style-media.css">
-        <link rel="stylesheet" href="css/media-queries/accueil-media.css">
+        <!-- <link rel="stylesheet" href="css/media-queries/style-media.css"> -->
+        <!-- <link rel="stylesheet" href="css/media-queries/accueil-media.css"> -->
         <!-- Media queries -->
 
         <link rel="icon" type="image/vnd.icon" href="img/logo.png">
@@ -40,58 +40,74 @@
             <div id="icon-theme" >
                 <a id="btn-icon-theme" onclick="switchTheme()"><i class="fa-solid fa-circle-half-stroke"></i></a>
             </div>
+
             <!-- Game slide 1 -->
             <div class="slide1">
+                
                 <a class="game" href="valorant.html">
-                    <img src="img/VALORANT/VALORANT-illustration.webp" width="493" height="275" alt="Image illustration valorant">
+                    <img src="img/VALORANT/VALORANT-illustration.webp" alt="Image illustration valorant">
                 </a>
                 <a class="game" href="fortnite.html">
-                    <img src="img/FORTNITE/FORTNITE-illustration.webp" width="493" height="275" alt="Image illustration fortnite">
+                    <img src="img/FORTNITE/FORTNITE-illustration.webp" alt="Image illustration fortnite">
                 </a>
             </div>
 
             <!-- Game slide 2 -->
-            <div class="slide2">
+            <section class="slide2">
                 <h2>DERNIÈRES SORTIES</h2>
 
                 <div class="big-game">
                     <a href="https://store.epicgames.com/fr/p/black-myth-wukong-87a72b" target="_blank">
-                        <div class="games" id="wukong"></div>
+                        
+                        <div class="games">
+                            <img src="img/HomeGame/Wukong.webp" alt="Un singe debout avec une armure et grand">
+                        </div>
                         <div class="info-game">
                             <span class="title">Black Myth: Wukong</span>
                             <span>59.99 €</span>
                         </div>
                     </a>
                     <a href="https://store.epicgames.com/fr/p/red-dead-redemption" target="_blank">
-                        <div class="games" id="red-dead"></div>
+                        <div class="games">
+                            <img src="img/HomeGame/RedDead.webp" alt="Un homme tenant une arme">
+                        </div>
                         <div class="info-game">
                             <span class="title">Red Dead Redemption</span>
                             <span>39.99 €</span>
                         </div>
                     </a><a href="wrc.html">
-                        <div class="games" id="wrc10"></div>
+                        <div class="games">
+                            <img src="img/HomeGame/WRC10.webp" alt="Voiture de face">
+                        </div>
                         <div class="info-game">
                             <span class="title">WRC10</span>
                             <span>12.49 €</span>
                         </div>
                     </a><a href="https://store.epicgames.com/fr/p/horizon-zero-dawn-complete-edition" target="_blank">
-                        <div class="games" id="horizon"></div>
+                        <div class="games">
+                            <img src="img/HomeGame/HorizonZeroDawn.webp" alt="Femme au centre tenant un arc avec des robot autour">
+                        </div>
                         <div class="info-game">
                             <span class="title">Horizon Zero Dawn Complete Edition</span>
                             <span>49.99 €</span>
                         </div>
                     </a>
                 </div>
-            </div>
+            </section>
 
             <!-- Jeu Gratuit -->
             <section class="free-game">
-                <div id="gif-text"><i class="fa-solid fa-gift"></i>Cadeau</div>
-                <div>
-                    <img src="img/FreeGame/Destiny2.jpg">
-                    <p id="text-gratuit">GRATUIT</p>
+                <div class="game-center">
+                    <div id="gif-text"><i class="fa-solid fa-gift"></i>Cadeau</div>
+                    <a href="valorant.html">
+                        <div id="game-image">
+                            <img src="img/FreeGame/Destiny2.jpg">
+                            <p id="text-gratuit">GRATUIT</p>
+                        </div>
+                    </a>
+                    
+                    <div id="free-game-name">Destiny 2</div>
                 </div>
-                <div id="free-game-name">Destiny 2</div>
             </section>
 
         </main>

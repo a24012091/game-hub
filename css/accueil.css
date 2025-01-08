@@ -1,72 +1,59 @@
 /* Section Slide 1 */
 
 .slide1 {
+    overflow-x: auto;
+    overflow-y: hidden;
     position: relative;
     display: flex;
     justify-content: space-around;
-    margin-top: 33px;
+    margin-top: 5%;
     width: 100%;
+    height: 40vh;
 }
 
 .game img {
     border-radius: 10px;
+    height: 100%;
+    margin: 0 10px;
 }
 
 /* Section Slide 2 */
 
-
-.slide2 h2{
-    font-size: 30px;
-    font-weight: bold;
-    color: var(--page-color);
-    margin-left: 12%;
+.slide2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
     margin-top: 5%;
 }
 
+.slide2 h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--page-color);
+    margin-left: 3%;
+}
+
 .big-game {
+    overflow-x: auto;
+    overflow-y: hidden;
     position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    height: 100%;
 }
 
 .big-game a {
     text-decoration: none;
-
+    margin: 0 5px;
 }
 
-.big-game a .games{
-    position: relative;
-    width: 350px;
-    height: 491px;
-    background: white;
+
+.big-game a .games img{
+    height: 100%;
     border-radius: 10px;
-    margin: 10px;
 }
 
-#wukong {
-    background-image: url("../img/HomeGame/Wukong.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#red-dead {
-    background-image: url("../img/HomeGame/RedDead.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#wrc10 {
-    background-image: url("../img/HomeGame/WRC10.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#horizon {
-    background-image: url("../img/HomeGame/HorizonZeroDawn.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .big-game .info-game {
     display: flex;
@@ -76,7 +63,7 @@
 
 .big-game .info-game span {
     color: var(--page-color);
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .title {
@@ -87,42 +74,73 @@
 /* Section Free Game */
 
 .free-game {
+    position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    height: auto;
+    width: 90%;
+    height: 80vh;
     background-color: var(--footer-color);
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
+    margin: 5%;
     border-radius: 10px;
+    padding: 5% 0;
 }
 
 #gif-text {
     color: white;
+    font-size: 1.5em;
 }
 
 .fa-gift {
-    padding: 5px;
+    padding: 10px;
 }
 
+.game-center {
+    display: block;
+    /* justify-content: center; */
+    width: auto;
+    height: 90%;
+    padding: 0 5%;
+    /* margin-top: -5%; */
+}
+
+.free-game a {
+    text-decoration: none;
+    /* padding: 50px; */
+}
+
+.free-game a #game-image {
+    height: 90%;
+    width: 100%;
+}
+
+.free-game a #game-image img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
 #text-gratuit {
+    position: relative;
+    width: auto;
     display: flex;
     justify-content: center;
     color: var(--btn-text-color);
     border: 1px var(--bg-color-btn-free) solid;
     background-color: var(--bg-color-btn-free);
     border-radius: 0 0 10px 10px;
-    padding: 7px;
-    margin: 0;
+    padding: 2%;
     font-weight: bold;
+    margin-top: -5%;
+    /* z-index: 10; */
 }
 
 #free-game-name {
     color: white;
-    font-size: 18px;
-    padding: 7px;
+    font-size: 1.5em;
     font-weight: bold;
+    margin-top: 15px;
+    padding: 1% 0;
 }

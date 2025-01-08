@@ -1,29 +1,31 @@
-@media screen and (max-width: 450px){
+@media screen and (max-width: 320px){
     body {
         overflow-x: hidden;
+        position: relative;
+        width: 100%;
+        height: 100vh;
     }
 
     /* Slide 1 */
 
     .slide1 {
-        height: 175px;
-        overflow-x: auto;
-        padding: 20px 5px;
-        display: flex;
-        justify-content: space-between;
+        position: relative;
         width: 100%;
+        height: 30vh;
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
     }
 
-    .game {
-        width: 300px;
-        height: 175px;
-        margin: 0 15px;
+    .game img {
+        height: 100%;
+        border-radius: 5px;
+        margin: 0 10px;
     }
 
     /* Slide 2 */
 
     .slide2 {
-        overflow-x: auto;
         padding: 20px 5px;
     }
 
@@ -32,6 +34,7 @@
     }
 
     .big-game {
+        overflow-x: auto;
         display: flex;
         justify-content: space-between;
     }
@@ -44,26 +47,27 @@
     /* Section free game */
 
     .free-game {
-        width: 420px;
+        position: relative;
+        width: 50%;
         height: 331px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 15px;
+        display: block;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* margin-left: 15px; */
     }
     
-    .free-game-div {
+    /* .free-game-div {
         width: 361px;
         height: 203px;
         margin-top: -30%;
         margin-left: 10px;
-    }
+    } */
 
-    .title-present {
+    /* .title-present {
         margin-left: 15px;
-    }
+    } */
 
-    .img-present {
+    /* .img-present {
         width: 37px;
         height: 36px;
         background-size: cover;
@@ -74,13 +78,17 @@
         height: 203px;
         background-size: cover;
         margin-left: 15px;
+    } */
+
+    #game-image {
+        width: 100%;
     }
 
-    #text-gratuit {
+    /* #text-gratuit {
         width: 359px;
         height: 30px;
         font-size: 12px;
-    }
+    } */
 
     #title-game {
         margin-left: 15px;
