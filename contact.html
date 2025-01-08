@@ -5,8 +5,6 @@
         <link rel="stylesheet" href="css/style-b.css">
         <link rel="stylesheet" href="css/contact.css">
         <link rel="icon" type="image/vnd.icon" href="img/logo.png">
-        <script src="https://kit.fontawesome.com/242e672808.js" crossorigin="anonymous"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <title>Game Hub - Contact</title>
         <!-- Polices -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,50 +22,52 @@
                 </ul>
             </nav>
         </header>
-
+        
         <div class="btn">
             <i id="icone" class="fa-solid fa-arrow-up"></i>
         </div>
-        
+
         <div id="icon-theme" >
             <a id="btn-icon-theme" onclick="switchTheme()"><i class="fa-solid fa-moon"></i></a>
         </div>
+            <main>
+                <h1 id="page-title">Contact</h1>
+                <form id="form-contact" action="mailto:loan.allard@gmail.com?subject=Nouveau%20Message%20de%20%22nom%22%20%22prenom%22&body=E-mail%20de%20l'expediteur:%20%22email%22%0A%0APseudo:%20%22pseudo%22%0A%0A%22message%22" method="post" enctype="text/plain">
+                    <div id="name-text-bloc">
+                        <div class="name-bloc">
+                            <label for="nom">Nom</label>
+                            <input id="nom" class="input" type="text" placeholder="Dupond" required="required">
+                        </div>
+                        <div class="name-bloc">
+                            <label for="prenom">Prénom</label>
+                            <input id="prenom" class="input" type="text" placeholder="Thierry" required="required">
+                        </div>
+                    </div>
+                    <div id="form-pseudo-bloc">
+                        <label for="pseudo">Pseudo</label>
+                        <input id="pseudo" class="input" type="text" placeholder="ThierryDu13" required="required">
+                    </div>
+                    <div id="form-email-bloc">
+                        <label for="email">Email</label>
+                        <input id="email" class="input" type="email" placeholder="example@gmail.com" required="required">
+                    </div>
+                    <div id="form-message-bloc">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="input" placeholder="Votre message ici..." required="required"></textarea>
+                    </div>
+                    <button id="envoyer-form" type="submit">Envoyer</button>
+                </form>
+            </main>
 
-        <div id="contact-container">
-            <h1 id="page-title">Contact</h1>
-            <form id="form-contact">
-                <div id="name-text-bloc">
-                    <label for="nom">Nom</label>
-                    <label for="prenom" class="name-text">Prénom</label>
-                </div>
-                <div id="form-name-bloc">
-                    <input id="nom" class="input" type="text" placeholder="Dupond" required="required">
-                    <input id="prenom" class="input" type="text" placeholder="Thierry" required="required">
-                </div>
-                <div id="form-pseudo-bloc">
-                    <label for="pseudo">Pseudo</label>
-                    <input id="pseudo" class="input" type="text" placeholder="ThierryDu13" required="required">
-                </div>
-                <div id="form-email-bloc">
-                    <label for="email">Email</label>
-                    <input id="email" class="input" type="email" placeholder="example@gmail.com" required="required">
-                </div>
-                <div id="form-message-bloc">
-                    <label for="message">Message</label>
-                    <textarea id="message" class="input" placeholder="Votre message ici..." required="required"></textarea>
-                </div>
-                <button id="envoyer-form" type="submit">Envoyer</button>
-            </form>
-        </div>
+            <section id="news-box">
+                <h1 id="news-title">NEWSLETTER</h1>
+                <a id="news-text">Reçoit les dernières actualités de jeux vidéos !</a>
+                <form id="news-form">
+                    <input id="input-news" type="email" placeholder="example@gmail.com" required="required">
+                    <button id="envoyer-form-news" type="submit">Envoyer</button>
+                </form>
+            </section>
 
-        <div id="news-box">
-            <h1 id="news-title">NEWSLETTER</h1>
-            <a id="news-text">Reçoit les dernières actualités de jeux vidéos !</a>
-            <form id="news-form">
-                <input id="input-news" type="email" placeholder="example@gmail.com" required="required">
-                <button id="envoyer-form-news" type="submit">Envoyer</button>
-            </form>
-        </div>
 
         <footer>
             <div class="foot-elem">
@@ -90,7 +90,8 @@
                 <a id="foot-copyright">Copyright ©️ 2024 by LPB</a>
             </div>
         </footer>
-
+        <script src="https://kit.fontawesome.com/242e672808.js" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="/js/app.js"></script>
     </body>
 </html>

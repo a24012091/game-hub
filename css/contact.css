@@ -38,18 +38,12 @@
     flex-direction: row;
 }
 
-.name-text {
-    margin-left: 20px;
+.name-bloc {
+    width: 50%;
 }
 
-#form-name-bloc, #form-pseudo-bloc, #form-email-bloc, #form-message-bloc {
+#name-text-bloc, #form-pseudo-bloc, #form-email-bloc, #form-message-bloc {
     margin-bottom: 15px;
-}
-
-#form-name-bloc {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
 }
 
 .input {
