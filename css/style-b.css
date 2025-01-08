@@ -75,11 +75,12 @@ body {
 }
 
 .nav-item {
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .navbar ul li {
     list-style: none;
+    padding: 5px;
 }
 
 .navbar ul li a {
@@ -91,9 +92,9 @@ body {
     text-decoration: underline;
 }
 
-.nav-game-title {
+.nav-game-title h1 a{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.5em;
 }
 
 
