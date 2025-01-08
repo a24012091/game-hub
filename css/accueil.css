@@ -30,7 +30,9 @@
 /* Section Slide 2 */
 
 
-.slide2 h2{
+.slide2 p{
+    font-size: 30px;
+    font-weight: bold;
     color: var(--page-color);
     margin-left: 12%;
     margin-top: 5%;
@@ -92,7 +94,7 @@
     font-size: 20px;
 }
 
-#title {
+.title {
     font-weight: bold;
 }
 
