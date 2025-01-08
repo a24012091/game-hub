@@ -8,29 +8,14 @@
     width: 100%;
 }
 
-.game {
-    width: 493px;
-    height: 275px;
-    background: white;
+.game img {
     border-radius: 10px;
-}
-
-#valorant {
-    background-image: url("/img/VALORANT/VALORANT-illustration.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#fortnite {
-    background-image: url("/img/FORTNITE/FORTNITE-illustration.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* Section Slide 2 */
 
 
-.slide2 p{
+.slide2 h2{
     font-size: 30px;
     font-weight: bold;
     color: var(--page-color);
@@ -60,25 +45,25 @@
 }
 
 #wukong {
-    background-image: url("/img/HomeGame/Wukong.png");
+    background-image: url("/img/HomeGame/Wukong.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #red-dead {
-    background-image: url("/img/HomeGame/RedDead.jpg");
+    background-image: url("/img/HomeGame/RedDead.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #wrc10 {
-    background-image: url("/img/HomeGame/WRC10.png");
+    background-image: url("/img/HomeGame/WRC10.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #horizon {
-    background-image: url("/img/HomeGame/HorizonZeroDawn.jpg");
+    background-image: url("/img/HomeGame/HorizonZeroDawn.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
