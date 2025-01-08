@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+/* NAVBAR */
+
+#navbar {
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    letter-spacing: 1px;
+}
+
+#nav-title {
+    justify-content: flex-start;
+    padding: 1.5vh;
+    color: white;
+}
+
+.nav-grp-btn {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    list-style-type: none;
+}
+
+.nav-btn {
+    padding: 5vh;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn:hover {
+    padding: 5vh;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    transition-duration: 0.7s;
+}
+
+.header {
+    /* background-image: url(/img/background.png); */
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid;
+}
+
