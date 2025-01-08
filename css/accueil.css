@@ -45,25 +45,25 @@
 }
 
 #wukong {
-    background-image: url("img/HomeGame/Wukong.webp");
+    background-image: url("../img/HomeGame/Wukong.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #red-dead {
-    background-image: url("img/HomeGame/RedDead.webp");
+    background-image: url("../img/HomeGame/RedDead.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #wrc10 {
-    background-image: url("img/HomeGame/WRC10.webp");
+    background-image: url("../img/HomeGame/WRC10.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #horizon {
-    background-image: url("img/HomeGame/HorizonZeroDawn.webp");
+    background-image: url("../img/HomeGame/HorizonZeroDawn.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
