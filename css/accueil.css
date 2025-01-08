@@ -125,14 +125,14 @@
 .img-present {
     width: 37px;
     height: 36px;
-    background-image: url("img/FreeGame/Cadeau.png");
+    background-image: url("../img/FreeGame/Cadeau.png");
 }
 
 .game-present {
     position: relative;
     width: 670px;
     height: 376px;
-    background-image: url("img/FreeGame/Destiny2.jpg");
+    background-image: url("../img/FreeGame/Destiny2.jpg");
     border-radius: 10px;
     margin: 10px 0;
 }
